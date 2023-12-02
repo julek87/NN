@@ -219,8 +219,6 @@ ex = Button(tk_calc, button_params, text='e^x',
 #--6th row--
 button_7 = Button(tk_calc, button_params_main, text='7',
                   command=lambda:button_click('7')).grid(row=6, column=0, sticky="nsew")
-button_8 = Button(tk_calc, button_params_main, text='8',
-                  command=lambda:button_click('8')).grid(row=6, column=1, sticky="nsew")
 button_9 = Button(tk_calc, button_params_main, text='9',
                   command=lambda:button_click('9')).grid(row=6, column=2, sticky="nsew")
 delete_one = Button(tk_calc, bd=5, fg='#000', font=('sans-serif', 20, 'bold'),
@@ -229,12 +227,10 @@ delete_all = Button(tk_calc, bd=5, fg='#000', font=('sans-serif', 20, 'bold'),
               text='AC', command=button_clear_all, bg='#db701f').grid(row=6, column=4, sticky="nsew")
 
 #--7th row--
-button_4 = Button(tk_calc, button_params_main, text='4',
-                  command=lambda:button_click('4')).grid(row=7, column=0, sticky="nsew")
+
 button_5 = Button(tk_calc, button_params_main, text='5',
                   command=lambda:button_click('5')).grid(row=7, column=1, sticky="nsew")
-button_6 = Button(tk_calc, button_params_main, text='6',
-                  command=lambda:button_click('6')).grid(row=7, column=2, sticky="nsew")
+
 mul = Button(tk_calc, button_params_main, text='*',
              command=lambda:button_click('*')).grid(row=7, column=3, sticky="nsew")
 div = Button(tk_calc, button_params_main, text='/',
