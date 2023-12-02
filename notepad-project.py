@@ -104,9 +104,9 @@ fileMenu = Menu(notepadMenu, tearoff = False)
 notepadMenu.add_cascade(label='File', menu = fileMenu)
 
 #adding options in file menu
-fileMenu.add_command(label='New', command = cmdNew)
-fileMenu.add_command(label='Open...', command = cmdOpen)
-fileMenu.add_command(label='Save', command = cmdSave)
+# fileMenu.add_command(label='New', command = cmdNew)
+# fileMenu.add_command(label='Open...', command = cmdOpen)
+# fileMenu.add_command(label='Save', command = cmdSave)
 fileMenu.add_command(label='Save As...', command = cmdSaveAs)
 fileMenu.add_separator()
 fileMenu.add_command(label='Exit', command = cmdExit)
